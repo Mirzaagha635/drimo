@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+header .container .navbar .container-fluid img {
+  max-width: 100%;
+}
+header .container .navbar .container-fluid .collapse .navbar-nav {
+  gap: 20px;
+}
+
+#home {
+  width: 100%;
+  height: auto;
+  background-image: url(/assets/img/server-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#home .home1 {
+  margin: 30px;
+}
+#home h4 {
+  color: white;
+}
+#home h5 {
+  color: whitesmoke;
+}
+#home p {
+  color: aliceblue;
+}
+#home .hometext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#home .hometext .icondiv {
+  width: 100%;
+  gap: 30px;
+}
+#home .hometext .icondiv .fa-regular {
+  color: white;
+}
+#home .hometext .icon {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: auto;
+}
+#home .hometext .btnhome {
+  width: 40%;
+  background-color: #E64100;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 4px;
+}
+#home .homeimg img {
+  max-width: 100%;
+}
+
+#product {
+  width: 100%;
+  height: auto;
+}
+#product .boxDiv {
+  margin-bottom: 20px;
+}
+#product .imagebox {
+  max-width: 100%;
+}
+
+#client {
+  width: 100%;
+  height: 500px;
+  background-color: #7DB9E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#client .clienttext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+#client .clienttext h2 {
+  color: white;
+}
+#client .clienttext p {
+  color: white;
+}
+#client .happyclienticon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#client .happyclienticon .divicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 100px;
+}
+#client .happyclienticon .divicon .fa-solid {
+  color: #7DB9E8;
+}
+#client .happytext {
+  margin: auto;
+}
+#client .happytext h4 {
+  color: white;
+}
+#client .happytext p {
+  color: white;
+}
+
+#news {
+  width: 100%;
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#news .newstext {
+  width: 100%;
+}
+#news .latesttext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#news .latesttext .livediv {
+  width: 60px;
+  height: 3px;
+  background-color: black;
+}
